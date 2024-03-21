@@ -69,8 +69,8 @@ Details:
 */
 
 // ********RoostGPT********
-public final void add(final Book bookToAdd) {
-    if (bookToAdd != null) {
-        books.add(bookToAdd);
-    }
-}
+// public final void add(final Book bookToAdd) {
+//     if (bookToAdd != null) {
+//         books.add(bookToAdd);
+//     }
+// }

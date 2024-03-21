@@ -65,6 +65,7 @@ Scenario 4: Test hashCode Method when books is not null and purchased is true
 */
 
 // ********RoostGPT********
+package com.baeldung.model;
 
 import org.junit.Before;
 import org.junit.Test;
