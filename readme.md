@@ -62,14 +62,6 @@ To run Maven tests for the Spring Hypermedia API project, follow these steps:
 
      Replace `testMethodName` with the name of the test method you want to run.
 
-## Acknowledgments
-
-We extend our sincere appreciation to RoostGPT for its invaluable contribution to the Spring Hypermedia API project. RoostGPT's AI capabilities have significantly enhanced the efficiency and effectiveness of our unit testing process, enabling us to deliver high-quality software with confidence.
-
-We would also like to acknowledge the Spring framework community for providing robust tools and frameworks to facilitate effective unit testing practices. Together, these resources have empowered us to achieve our testing objectives and deliver reliable software solutions.
-
-Feel free to explore the repository to delve deeper into the unit testing strategies employed within the Spring Hypermedia API project. Happy testing!
-
 ## Contact
 
 For more information about RoostGPT or our other products and services, please visit our website at [roost.ai](https://roost.ai) or contact us at [support@roost.ai](mailto:support@roost.ai).
