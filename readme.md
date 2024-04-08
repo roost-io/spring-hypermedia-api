@@ -1,9 +1,6 @@
-Certainly! Below is the content formatted as a complete README.md file:
-
-```markdown
 # Spring Hypermedia API
 
-The Spring Hypermedia API repository is dedicated to unit testing Java code. This project emphasizes the importance of robust unit testing practices within a Spring framework environment. Here, we focus solely on the unit testing aspect of the application.
+The Spring Hypermedia API repository is dedicated to unit testing Java code designed to illustrate the process of using AI-powered tools for test generation, API specification creation, source code generation, and unit test generation. This project was developed using various tools, including RoostGPT, an AI Test Generator, OpenAPI Generator, and GitHub CoPilot.
 
 ## Overview
 
@@ -74,4 +71,8 @@ We extend our sincere appreciation to RoostGPT for its invaluable contribution t
 
 We would also like to acknowledge the Spring framework community for providing robust tools and frameworks to facilitate effective unit testing practices. Together, these resources have empowered us to achieve our testing objectives and deliver reliable software solutions.
 
-Feel free to explore the repository to delve deeper into the unit testing strategies employed within the Spring Hypermedia API project with the help of RoostGPT. Happy testing!
+Feel free to explore the repository to delve deeper into the unit testing strategies employed within the Spring Hypermedia API project. Happy testing!
+
+---
+
+Replace `{username}` with the actual username associated with the Spring Hypermedia API repository.
