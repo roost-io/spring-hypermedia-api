@@ -13,14 +13,11 @@ The development process of the Spring Hypermedia API integrates cutting-edge AI-
 1. **Code Implementation:**  
    Java code is implemented following Spring framework conventions, with an emphasis on RESTful APIs and hypermedia-driven designs.
 
-2. **Unit Test Creation:**  
-   Unit tests are meticulously crafted to validate the functionality of individual components and methods within the Java codebase. These tests cover various scenarios to ensure code reliability and correctness.
-
-3. **Test Generation with RoostGPT:**  
+2. **Test Generation with RoostGPT:**  
    RoostGPT, an AI-powered test generator, is utilized to automate the generation of comprehensive unit tests. This innovative approach enhances test coverage and efficiency in the development process.
 
-4. **Test Execution:**  
-   Maven is used as the build automation tool to compile the code and execute both manually crafted and AI-generated unit tests. This ensures thorough validation of the application's functionality.
+3. **Test Execution:**  
+   Maven is used as the build automation tool to compile the code and execute AI-generated unit tests. This ensures thorough validation of the application's functionality.
 
 ## Running Maven Tests
 
@@ -28,7 +25,7 @@ To run Maven tests for the Spring Hypermedia API project, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/{username}/spring-hypermedia-api.git
+   git clone https://github.com/roost-io/spring-hypermedia-api.git
    ```
 
 2. **Navigate to the project directory:**
