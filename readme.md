@@ -1,6 +1,6 @@
 # Spring Hypermedia API
 
-The Spring Hypermedia API repository is dedicated to unit testing Java code designed to illustrate the process of using AI-powered tools for test generation, API specification creation, source code generation, and unit test generation. This project was developed using various tools, including RoostGPT, an AI Test Generator, OpenAPI Generator, and GitHub CoPilot.
+The Spring Hypermedia API repository is dedicated to unit testing Java code designed to illustrate the process of using AI-powered tools for test generation. This project showcase the ability to generate Unit test of java springboot project by RoostGPT, an AI Test Generator.
 
 ## Overview
 
@@ -73,6 +73,10 @@ We would also like to acknowledge the Spring framework community for providing r
 
 Feel free to explore the repository to delve deeper into the unit testing strategies employed within the Spring Hypermedia API project. Happy testing!
 
+## Contact
+
+For more information about RoostGPT or our other products and services, please visit our website at [roost.ai](https://roost.ai) or contact us at [support@roost.ai](mailto:support@roost.ai).
+
 ---
 
-Replace `{username}` with the actual username associated with the Spring Hypermedia API repository.
+
