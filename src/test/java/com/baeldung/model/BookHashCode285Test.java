@@ -120,6 +120,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
+/*
 @Entity
 public class Book {
 
@@ -162,6 +163,7 @@ public class Book {
 	}
 
 }
+*/
 
 public class BookHashCode285Test {
 

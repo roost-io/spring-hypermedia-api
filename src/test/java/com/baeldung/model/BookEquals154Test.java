@@ -140,6 +140,7 @@ import com.fasterxml.jackson.annotation.JsonView;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
 @Entity
 public class Book {
     @Id
@@ -203,7 +204,7 @@ package com.baeldung.model;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-
+*/
 public class BookEquals154Test {
 
     @Test
