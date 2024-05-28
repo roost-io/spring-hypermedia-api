@@ -69,30 +69,33 @@ Validation:
 roost_feedback [5/28/2024, 9:50:18 AM]:The test needs to be wrapped inside a class called CartAdd754Test
 And the package is com.baeldung.model;
 Also add the necessary assert and junit imports
+
+roost_feedback [5/28/2024, 11:21:37 AM]:add import statement for assertFalse like
+``` import static org.junit.jupiter.api.Assertions.assertFalse; ```
 */
 
 // ********RoostGPT********
 
-  
 package com.baeldung.model;
 
-import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+import org.junit.jupiter.api.Test;
 
 public class CartAdd754Test {
-    
+
     @Test
     public void testAddBookToEmptyList(){
         Book bookToAdd = new Book();
         Cart cart = new Cart();
-        
+
         cart.add(bookToAdd);
-        
+
         assertFalse(cart.getBooks().isEmpty());
         assertEquals(bookToAdd, cart.getBooks().get(0));
     }
-    
+
     @Test
     public void testAddBookToNonEmptyList(){
         Book bookToAdd = new Book();
@@ -100,13 +103,13 @@ public class CartAdd754Test {
         Cart cart = new Cart();
         cart.add(initialBook);
         int initialListSize = cart.getBooks().size();
-        
+
         cart.add(bookToAdd);
-        
+
         assertEquals(initialListSize + 1, cart.getBooks().size());
         assertEquals(bookToAdd, cart.getBooks().get(cart.getBooks().size() - 1));
     }
-    
+
     @Test
     public void testAddNullBook(){
         Cart cart = new Cart();
@@ -114,29 +117,29 @@ public class CartAdd754Test {
             cart.add(null);
         });
     }
-    
+
     @Test
     public void testAddDuplicateBook(){
         Book bookToAdd = new Book();
         Cart cart = new Cart();
         cart.add(bookToAdd);
         int initialListSize = cart.getBooks().size();
-        
+
         cart.add(bookToAdd);
-        
+
         assertEquals(initialListSize + 1, cart.getBooks().size());
         assertEquals(bookToAdd, cart.getBooks().get(initialListSize));
         assertEquals(bookToAdd, cart.getBooks().get(cart.getBooks().size() - 1));
     }
-    
+
     @Test
     public void testAddBookWhenPurchased(){
         Book bookToAdd = new Book();
         Cart cart = new Cart();
         cart.setPurchased(true);
-        
+
         cart.add(bookToAdd);
-        
+
         assertEquals(1, cart.getBooks().size());
         assertEquals(bookToAdd, cart.getBooks().get(0));
     }
